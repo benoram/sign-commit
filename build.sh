@@ -1,3 +1,3 @@
 #!/bin/zsh
 
-docker build . -t sign-commit-local
+docker build . -t benoram/sign-commit-local

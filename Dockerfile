@@ -9,7 +9,7 @@ RUN apt-get update && \
     apt-get -s dist-upgrade | grep "^Inst" | grep -i securi | awk -F " " {'print $2'} | xargs apt-get install 
     
 # Install tools
-RUN apt-get install -y --no-install-recommends ca-certificates curl openssh-client git build-essential tini
+RUN apt-get install -y ca-certificates curl openssh-client git build-essential tini
 
 # Init known_hosts with github.com
 RUN mkdir /root/.ssh && \
