@@ -2,7 +2,7 @@
 
 A simple docker container for running [bpb](https://github.com/dragonmaus/bpb) for code signing.
 
-## Setup your macine
+## Setup your machine
 
 ### Build the container image
 
